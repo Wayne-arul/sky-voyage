@@ -3,7 +3,7 @@ from flight_data import FlightData
 
 
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-TEQUILA_APIKEY = "NNCwC8txhe8jHKlyNuh-Cka5UEfgipHY"
+TEQUILA_APIKEY = ""
 
 class FlightSearch:
     def get_destination(self, city):
