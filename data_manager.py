@@ -3,7 +3,7 @@ import requests
 class DataManager:
     def __init__(self):
         self.endpoint = "https://api.sheety.co/4bb3a7097948d0ad5e777b0275d0a87r/flightDeals/prices"
-        self.auth_key = "Basic d2F5bmU6UGFzc3dvcyQ="
+        self.auth_key = ""
         self.header = {
             "Authorization": self.auth_key
         }
